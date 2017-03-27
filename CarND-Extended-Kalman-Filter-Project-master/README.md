@@ -1,4 +1,4 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter Project - Fusing LIDAR and RADAR sensors using EKF
 Self-Driving Car Engineer Nanodegree Program
 
 ---
@@ -26,12 +26,10 @@ Self-Driving Car Engineer Nanodegree Program
    some sample inputs in 'data/'.
     - eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
 
-## Usage
+## Data
 Input - Data folder
-Output - Output folder
-Usage:
-  /Extended_Kalman_Filter [OPTION...] positional parameters
 
+Output - Output folder
 
 
 ## Generating Additional Data
