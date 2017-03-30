@@ -1,5 +1,7 @@
-# Extended Kalman Filter Project - Fusing LIDAR and RADAR sensors using EKF
-Self-Driving Car Engineer Nanodegree Program
+# Extended Kalman Filter Project - Self-Driving Car Engineer Nanodegree Program
+
+Fusing LIDAR and RADAR sensors using EKF with C++
+
 
 ---
 
