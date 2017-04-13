@@ -74,6 +74,21 @@ public:
   ///* the current NIS for laser
   double NIS_laser_;
 
+    ///* previous_timestamp in us
+    long previous_timestamp_;
+    VectorXd x_aug;
+    MatrixXd P_aug;
+    ///* process noise
+    MatrixXd Q_;
+    MatrixXd H_laser_;
+    MatrixXd R_laser_;
+    MatrixXd R_radar_;
+
+    ///* Sigma points
+    MatrixXd Xsig_;
+    MatrixXd Zsig_;
+    int n_z_radar_;
+
   /**
    * Constructor
    */
