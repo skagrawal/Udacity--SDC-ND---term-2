@@ -1,0 +1,82 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/PID.cpp
+PID.h
+/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/PID.h
+
+/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/PID.h
+
+/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/json.hpp
+algorithm
+-
+array
+-
+cassert
+-
+cctype
+-
+ciso646
+-
+cmath
+-
+cstddef
+-
+cstdint
+-
+cstdlib
+-
+cstring
+-
+forward_list
+-
+functional
+-
+initializer_list
+-
+iomanip
+-
+iostream
+-
+iterator
+-
+limits
+-
+locale
+-
+map
+-
+memory
+-
+numeric
+-
+sstream
+-
+stdexcept
+-
+string
+-
+type_traits
+-
+utility
+-
+vector
+-
+
+/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/main.cpp
+uWS/uWS.h
+-
+iostream
+-
+json.hpp
+/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/json.hpp
+PID.h
+/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/PID.h
+math.h
+-
+
