@@ -1,3 +1,0 @@
-/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/shubhama/Dropbox (Telenav)/Udacity-SDC-ND--term-2/CarND-PID-Control-P4/src/cmake-build-debug/CMakeFiles/pid.dir
