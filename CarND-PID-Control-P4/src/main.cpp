@@ -1,5 +1,3 @@
-//I have tuned parameters by trail and error. I started with the values provided in lessons
-
 #include <uWS/uWS.h>
 #include <iostream>
 #include "json.hpp"
