@@ -1,11 +1,14 @@
 # CarND-Controls-MPC
-Self-Driving Car Engineer Nanodegree Program
 
-This implements model predictive control (MPC) method to drive a car using simulator.
+This implements model predictive control (MPC) method to drive a car using simulator as part of Self-Driving Car Engineer Nanodegree Program.
 
 - YouTube Link - https://www.youtube.com/watch?v=75ylhM0QsXQ
-- In this MPC trajectory path is displayed in green and the polynomial fitted reference path is in yellow.
+- Here MPC trajectory path is displayed in green and the polynomial fitted reference path is in yellow.
 
+
+**Here is an overview of the MPC approach as provided by Udacity:**
+![MPC](images/1.png)
+![MPC](images/2.png)
 
 ---
 
