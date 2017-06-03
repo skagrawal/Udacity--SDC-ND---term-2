@@ -73,7 +73,10 @@ for instructions and the project rubric.
 
 -----
 ## State Variables
-# px,py - Current location of vehicle in global cordinate map system
-# psi - Heading of the vehicle
-# v - Current speed of the vehicle
+# px,py 
+- Current location of vehicle in global cordinate map system
+# psi 
+- Heading of the vehicle
+# v 
+- Current speed of the vehicle
 
