@@ -6,7 +6,7 @@ This implements model predictive control (MPC) method to drive a car using simul
 - Here MPC trajectory path is displayed in green and the polynomial fitted reference path is in yellow.
 
 
-**Here is an overview of the MPC approach as provided by Udacity:**
+**MPC approach, by Udacity:**
 ![MPC](images/1.png)
 ![MPC](images/2.png)
 
