@@ -80,3 +80,5 @@ for instructions and the project rubric.
 ## v 
 - Current speed of the vehicle
 
+# Latency in MPC
+We have a 1000ms latency, so to handle that we updated our state before using it in the model. Code is available in the main class.

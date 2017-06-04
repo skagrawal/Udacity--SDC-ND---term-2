@@ -6,7 +6,7 @@
 using CppAD::AD;
 
 // TODO: Set the timestep length and duration
-size_t N = 15; // how many states we look ahead in the future
+size_t N = 20; // how many states we look ahead in the future
 double dt = 0.2; // how much time we expect environment changes
 
 // This value assumes the model presented in the classroom is used.

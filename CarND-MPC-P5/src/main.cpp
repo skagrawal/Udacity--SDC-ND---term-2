@@ -91,7 +91,8 @@ int main() {
             double py = j[1]["y"];
             double psi = j[1]["psi"];
             double v = j[1]["speed"];
-
+            const double delta = j[1]["steering_angle"];
+            const double a = j[1]["throttle"];
             /*
             * Calculate steeering angle and throttle using MPC.
             *
@@ -126,10 +127,22 @@ int main() {
 
             double cte = polyeval(coeffs, 0) /*- py*/;
             double epsi = atan(coeffs[1]) /*- psi*/;
+//
+//            Eigen::VectorXd state(6);
+//            state << 0,0,0, v, cte, epsi;
 
-            Eigen::VectorXd state(6);
-            state << 0,0,0, v, cte, epsi;
+            const double dt = 0.1;
+            const double Lf = 2.67;
+            const double current_px = 0.0 + v * dt;
+            const double current_py = 0.0;
+            const double current_psi = 0.0 + v * (-delta) / Lf * dt;
+            const double current_v = v + a * dt;
+            const double current_cte = cte + v * sin(epsi) * dt;
+            const double current_epsi = epsi + v * (-delta) / Lf * dt;
 
+            const int NUMBER_OF_STATES = 6;
+            Eigen::VectorXd state(NUMBER_OF_STATES);
+            state << current_px, current_py, current_psi, current_v, current_cte, current_epsi;
 
             auto actuator = mpc.Solve(state, coeffs);
             double steer_value = -actuator[0];
