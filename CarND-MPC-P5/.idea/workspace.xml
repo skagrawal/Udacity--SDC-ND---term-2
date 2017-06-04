@@ -23,10 +23,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
+            <state relative-caret-position="1650">
               <caret line="110" column="78" lean-forward="true" selection-start-line="110" selection-start-column="78" selection-end-line="110" selection-end-column="78" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MPC.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MPC.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MPC.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-490">
+            <state relative-caret-position="120">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
@@ -364,12 +364,12 @@
       <updated>1496294930190</updated>
       <workItem from="1496294932020" duration="8736000" />
       <workItem from="1496417207546" duration="12000" />
-      <workItem from="1496417263615" duration="10247000" />
+      <workItem from="1496417263615" duration="10451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18995000" />
+    <option name="totallyTimeSpent" value="19199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="290" y="23" width="1205" height="864" extended-state="0" />
@@ -479,22 +479,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MPC.cpp">
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="1650">
+          <caret line="110" column="78" lean-forward="true" selection-start-line="110" selection-start-column="78" selection-end-line="110" selection-end-column="78" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/src/MPC.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="110" column="78" lean-forward="true" selection-start-line="110" selection-start-column="78" selection-end-line="110" selection-end-column="78" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
